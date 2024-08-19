@@ -1,3 +1,5 @@
+#CODIGO PARA SABER O VALOR DE DESCONTO BASEADO EM PORSENTAGEM.
+
 a=float(input("\nDigite o preço do produto:"))
 b=float(input("\nDigite quantos porcento ganhou de desconto:"))
 c=((a*b)/100)

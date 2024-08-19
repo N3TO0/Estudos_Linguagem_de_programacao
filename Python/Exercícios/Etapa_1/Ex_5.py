@@ -1,3 +1,5 @@
+#CODIGO PARA SABER O OS TIPOS DO VALOR DIGITADO.
+
 n=input("Digite para saber mais informações sobre o que digitou:")
 
 print("Qual tipo de variavel foi digitada:\n",type(n))

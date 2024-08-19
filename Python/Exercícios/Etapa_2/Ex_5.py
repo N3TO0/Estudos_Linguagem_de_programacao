@@ -1,3 +1,5 @@
+#CODIGO PARA SORTEAR NOME UTILIZANDO BLIBLIOTECA.
+
 import math
 import random
 a=str(input("\nDigite o nome do aluno 1: "))

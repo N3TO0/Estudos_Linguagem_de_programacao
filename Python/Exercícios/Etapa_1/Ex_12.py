@@ -1,3 +1,5 @@
+#CODIGO PARA SABER A TABUADA DO NUMERO DIGITADO.
+
 a=int(input("\nDigite um numero para saber a sua tabuada:"))
 b="Tabuada"
 n="Fim"

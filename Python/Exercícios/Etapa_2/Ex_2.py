@@ -1,3 +1,5 @@
+#CODIGO PARA AREDONDAR O VALOR DECIMAL DIGITADO. 
+
 import math
 a=float(input("\nDigite um numero: "))
 

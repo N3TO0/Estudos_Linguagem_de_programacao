@@ -1,3 +1,5 @@
+#CODIGO PARA SABER ADIÇÃO, SUBRITAÇÃO, MULTIPLICAÇÃO, DIVISÃO INTEIRO, DIVISÃO REAL, POTENCIA E RESTO DO NUMERO DIGITADO.
+
 a=int(input("\nDigite um valor: "))
 b=int(input("\nDigite um valor: "))
 c=int(input("\nDigite um valor: "))
