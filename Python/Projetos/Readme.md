@@ -1,0 +1,1 @@
+Pasta contendo projetos que usam os assuntos da parte de exercicios, para criação de mini projetos. 
