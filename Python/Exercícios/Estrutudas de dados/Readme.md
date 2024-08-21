@@ -1,1 +1,0 @@
-Essa pasta contem arquivos de exercicios feitos nos estudos da linguagem de programação python, contendo estuturas de dados usando a linguagem python.
