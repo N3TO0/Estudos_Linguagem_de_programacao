@@ -1,3 +1,3 @@
-nome="iderval"
+nome="  iderval jose de lima neto  "
 
-print("{}".format(nome[2::2]))
+print("{}".format(nome.lstrip()))
