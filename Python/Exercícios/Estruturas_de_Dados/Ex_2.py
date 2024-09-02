@@ -1,4 +1,6 @@
-a=int(input("\nDigite sua nota de 0 a 10: "))
+#CODIGO QUE INFORMA SE A NOTA QUE TIROU FOI BOA OU RUIM.
+
+a=int(input("\nDigite sua nota de 0 a 10: ").strip())
 if a >= 9:
     print("Exelente")
 elif a >= 7:
