@@ -1,21 +1,24 @@
 #CODIGO PARA SIMULAR ANALISE DE EMPRESTIMO.
 from time import sleep
-print("\n{:=^150}".format("Emprestimo"))
 
-c=float(input("\nQual o valor da Casa ? : ").strip()) 
-s=float(input("\nQual o valor total do seu salario ? : ").strip()) 
-a=float(input("\nDeseja quitar a casa em quantos anos ? : ").strip()) 
-b=(a*12) #Quantidade de meses no total 
-e=c/b #Valor das parcelas  
-f=(s*30)/100 #  30% do valor do salario 
+print("\n{:=^50}".format(" Emprestimo "))
 
-if e > f:
-    print("\nCalculando..")
+a=float(input("\nqual o valor da casa ? : ").strip()) 
+b=float(input("\nQual o valot total do seu salario ? : ").strip())  
+c=float(input("\nDeseja quitar o Emprestimo em quantos anos ? : ").strip()) 
+d=a/(c*12) 
+e=(b*30)/100 
+
+if d <= e:
+    print("\ncalculando...")
     sleep(2)
-    print("\nSinto muito, mas de acordo com a analise\n Esse emprestimo não é possivel!")
+
+    print("\nParabéns o emprestimo foi aprovado!!\nO valor da prestação é de: R$ {:.2f} ".format(d))
+
 else:
-    print("\nParabens!! Seu emprestimo foi aprovado!!\nO valor das parcelas serão de: R$ {:.2f}".format(e))
+    print("\ncalculando...")
+    sleep(2)
+    print("\nSinto muito mas o Emprestimo não foi aprovado!")
 
 
-print("\n\n{:=^150}".format("Fim"))
-
+print("\n{:=^50}".format(" Fim "))
