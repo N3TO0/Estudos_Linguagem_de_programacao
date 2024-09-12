@@ -20,8 +20,12 @@ if a == 1:
     b=int(input("\nEscolha uma das 3 opções: ").strip())
     
     if b == 1:
-        print("\nAnalisando...")
-        sleep(2)
+        print("PEDRA..")
+        sleep(1)
+        print("PAPEL..")
+        sleep(1)
+        print("TESOURAA!!")
+        sleep(1)
         print("\nEu escolho {}".format(z))
         if z == l[0]:
             print("\nEmpatamos")
@@ -31,8 +35,12 @@ if a == 1:
             print("\nDroga.. Parabéns você ganhou!! ")
 
     elif b == 2:
-        print("\nAnalisando...")
-        sleep(2)
+        print("PEDRA..")
+        sleep(1)
+        print("PAPEL..")
+        sleep(1)
+        print("TESOURAA!!")
+        sleep(1)
         print("\nEu escolho {}".format(z))
         if z == l[1]:
             print("\nEmpatamos")
@@ -41,8 +49,12 @@ if a == 1:
         else:
             print("\nDroga.. Parabéns você ganhou!! ")
     elif b == 3:
-        print("\nAnalisando...")
-        sleep(2)
+        print("PEDRA..")
+        sleep(1)
+        print("PAPEL..")
+        sleep(1)
+        print("TESOURAA!!")
+        sleep(1)
         print("\nEu escolho {}".format(z))
         if z == l[2]:
             print("\nEmpatamos")
@@ -51,19 +63,19 @@ if a == 1:
         else:
             print("\nDroga.. Parabéns você ganhou!! ")
     else:
-        print("\nAnalisando...")
+        print("\nHumm...")
         sleep(2)
         print("\nNenhuma das opções informadas foram digitas.\n\nO programa será encerrado...")
         sleep(2)
 
 elif a == 2 :
-    print("\nAnalisando...")
+    print("\nHumm...")
     sleep(2)
     print("\nQue pena!! tudo bem então, até uma proxima! :)")
     sleep(2)
 
 else:
-    print("\nAnalisando...")
+    print("\nHumm...")
     sleep(2)
     print("\nNão foi digitado nenhuma das opções informadas!\nO programa será encerrado!!")
     sleep(2)
