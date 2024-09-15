@@ -1,3 +1,5 @@
+#CODIGO DE CONSULTA DE ALISTAMENTO
+
 from datetime import date
 print("\n{:=^50}".format(" Alistamento "))
 a = date.today().year

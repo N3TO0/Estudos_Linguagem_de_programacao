@@ -1,3 +1,5 @@
+#CODIGO PARA CALCULAR AUMENTO SALARIAL
+
 print("{:=^50}".format(" Calculo de Aumento Salarial "))
 
 a=float(input("\nQual é o valor do seu salário ? :  ").strip())
