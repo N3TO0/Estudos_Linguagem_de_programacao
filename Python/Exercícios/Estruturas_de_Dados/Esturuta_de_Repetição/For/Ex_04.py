@@ -1,4 +1,4 @@
-
+#TABUADA COM FOR.
 print("\n{:=^50}".format(" Tabuada "))
 
 print("Informe qual numero deseja saber a tabuada")

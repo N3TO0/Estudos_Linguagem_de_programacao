@@ -1,8 +1,9 @@
+#CODIGO QUE INSERE NUMERO INICIAL E LIMITE E INFORMA QUAIS NUMEROS PARES ESTÃO ENTRE ELES.
 from time import sleep
 
 print("\n{:=^50}".format(" Numeros Pares "))
 
-print("\nEste programa ira informar quais os numeros pares,\ndo numero inicial até o numero limite, por favor informe:")
+print("\nEste programa ira informar quais numeros pares contem\ndo numero inicial até o numero limite, por favor informe:")
 
 a=int(input("\nNumero Inicial: ").strip())
 d=int(input("Numero Limite: ").strip())

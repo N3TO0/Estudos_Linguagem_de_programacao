@@ -11,5 +11,6 @@ elif b >= "12" and b <= "17":
 
 elif b >= "18" and b <= "23": 
     print("\nBoa noite!\n")
+
 else:
     print("\nNão foi digitado corretamente!\n")
