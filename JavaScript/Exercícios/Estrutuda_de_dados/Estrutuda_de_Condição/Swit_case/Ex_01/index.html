@@ -9,8 +9,18 @@
 </head>
 
 <body>
-    <script src="Ex_01.js"></script>
 
+    <label for="">Digite as opções pra saber: R | r | $ | r$ | R$</label> <br> <br>
+    <input type="text" id="meuInput" placeholder="Digite aqui"> <br><br>
+    <button id="btnEnviar">Enter</button> <br>
+
+    <script src="Ex_01.js">
+        document.getElementById('btnEnviar').addEventListener('click', function () {
+            // Acessando o valor do input
+            let valorInput = document.getElementById('meuInput').value;
+            console.log(valorInput); // Exibe o valor no console
+        });
+    </script>
 </body>
 
 </html>
