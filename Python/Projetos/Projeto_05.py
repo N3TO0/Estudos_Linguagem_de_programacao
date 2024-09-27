@@ -1,7 +1,8 @@
 #VALIDAÇÃO DE CPF
+
 while True:
-    
-    cpf=(input("'934.933.960-90' cpd: ")).replace('.','').replace('-','')
+
+    cpf=input("Digite o cpf:")
     digitos_9 = cpf[:9] #armazenei apenas os 9 primeiros numeros
     multiplicador = 10 
     resultado=0
@@ -18,7 +19,7 @@ while True:
         
     resultado = (resultado * 10) % 11
 
-    if resultado > 9:
+    if resultado >= 9:
         resultado=0
 
     digitos_10 = cpf[:10] #armazenei apenas os 10 primeiros numeros
@@ -41,4 +42,3 @@ while True:
         break
     else:
         print("Cpf invalido!")
-        continue
