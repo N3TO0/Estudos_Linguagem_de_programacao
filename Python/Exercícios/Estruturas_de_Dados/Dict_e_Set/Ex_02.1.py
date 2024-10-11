@@ -1,7 +1,7 @@
 #Boletim com imput usando dict
 
 print('{:-^80}'.format(' Calculo de Média '))
-boletim={'Matematica':[0,0,0],'Portuquês':[0,0,0],'Biologia':[0,0,0],'Ciencias':[0,0,0]}
+boletim={'Matematica':[0,0,0],'Português':[0,0,0],'Biologia':[0,0,0],'Ciencias':[0,0,0]}
 
 print('\nColoque as notas das de cada materia\n')
 
