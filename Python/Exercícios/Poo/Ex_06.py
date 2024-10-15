@@ -1,3 +1,5 @@
+#Codigo camera ligando
+
 class Camera:
     def __init__(self, nome, gravando = False, ligado=False, foto=False): 
         self.nome = nome        
