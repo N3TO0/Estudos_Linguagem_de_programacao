@@ -69,5 +69,3 @@ while True:
         print("\nOpção escolhida não listada, por gentileza tente novamente!\n")
         print("-"*50)
         continue
-
-    
