@@ -21,13 +21,18 @@ class Camera:
         if not self.ligado:
             return print(f'{self.nome} Não Pode Grava Pois Está Desligado!')
             
-
         if self.gravando:
             print(f'{self.nome} Já Está Gravando')
-        
+       
         else: 
-            print(f'{self.nome} Iniciou A Gravar!')
-            self.gravando=True   
+            print(f'{self.nome} Iniciou A Gravasão!')
+            self.gravando=True
+    def Botão_não_gravar(self):
+
+        if self.gravando:
+            print(f'{self.nome} Parou De Gravar!')
+            self.gravando = False
+           
 
     def Botão_fotografar(self): 
         
@@ -50,7 +55,7 @@ print()
 c1.Botão_gravar()
 c1.Botão_fotografar()
 
-c1.Botão_gravar()
+c1.Botão_não_gravar()
 print()
 
 c1.Botão_ligar()
@@ -61,6 +66,9 @@ print()
 c1.Botão_ligar()
 c1.Botão_fotografar()
 c1.Botão_gravar()
+c1.Botão_gravar()
+c1.Botão_não_gravar()
+c1.Botão_ligar()
 print()
 
 
