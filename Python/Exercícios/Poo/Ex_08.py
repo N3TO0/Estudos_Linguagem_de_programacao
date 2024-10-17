@@ -24,5 +24,5 @@ print(p2.nome,p2.idade)
 p3=Pessoa('anonima', 34)
 print(p3.nome,p3.idade)
 
-#Metodos estaticos
+
 
