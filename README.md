@@ -6,6 +6,7 @@
 - Estuturas de Dados
 - Bibliotecas
 - Funções
+- Automatização
 
 ## JavaScript
 - 
