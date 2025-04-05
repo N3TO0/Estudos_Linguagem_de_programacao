@@ -1,29 +1,13 @@
 # Estudos em Linguagem de Programação 
 
-## Python
-- Comoandos basicos
-- Tipos de Variaveis
-- Estuturas de Dados
-- Bibliotecas
-- Funções
-- Automatização
-- FrameWorks
-- POO
+---
 
-## JavaScript
-- Comoandos basicos
-- Tipos de Variaveis
-- Estuturas de Dados
-- Bibliotecas
-- Funções
-- FrameWorks
-- POO
+# Acompanhamento dos estudos:
 
-## C
-- Comoandos basicos
-- Tipos de Variaveis
-- Estuturas de Dados
-- Bibliotecas
-- Funções
-- POO
+|Linguagem| Estruturas de Dados | POO | Tipagem | Automatização | Bibliotecas | Funções | FrameWorks |
+|---------|---------------------|-----|---------|---------------|-------------|---------|------------|
+|Python| ✔  |  ✔ |  ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
+|JavaScript|  ✔  |  ❌  |  ✔ |  ❌  |  ❌ |  ✔  |  ❌  |
+| C | ✔ |  ❌ |  ✔ |  ❌  |  ✔  |  ❌  |  ❌  |
 
+---
