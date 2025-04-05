@@ -4,10 +4,10 @@
 
 # Acompanhamento dos estudos:
 
-|Linguagem| Estruturas de Dados | POO | Tipagem | Automatização | Bibliotecas | Funções | FrameWorks |
+| Linguagem | Tipagem  | Estruturas de Dados | Funções | Bibliotecas | Automatização | POO | FrameWorks |
 |---------|---------------------|-----|---------|---------------|-------------|---------|------------|
 |Python| ✔  |  ✔ |  ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
-|JavaScript|  ✔  |  ❌  |  ✔ |  ❌  |  ❌ |  ✔  |  ❌  |
-| C | ✔ |  ❌ |  ✔ |  ❌  |  ✔  |  ❌  |  ❌  |
+|JavaScript|  ✔  |  ✔  |  ✔  |  ❌  |  ❌ |  ❌  |  ❌  |
+| C | ✔ |  ✔ |  ✔ |  ❌  |  ❌  |  ❌  |  ❌  |
 
 ---
